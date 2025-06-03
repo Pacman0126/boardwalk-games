@@ -21,22 +21,31 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .sub-heading-color {
-
-    color: var(--higlight-color);
+  color: var(--higlight-color);
 }
 
 /* Navbar */
-.navbar{
-background-color: var(--primary-color);
-  
+.navbar {
+  background-color: var(--primary-color);
 }
 
 #navbar .logo {
-
   width: 30px;
+}
+
+/* Header */
+
+#header .lead {
+  font-family: var(--secondary-font);
+}
+
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 /* grid visualisation CSS for testing
 .container, .row {
@@ -48,4 +57,3 @@ background-color: var(--primary-color);
     border: 2px solid white;
     background-color: lightgray;
 } */
-

@@ -72,6 +72,16 @@ background-color:transparent;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+
+
 /* grid visualisation CSS for testing
 .container, .row {
 

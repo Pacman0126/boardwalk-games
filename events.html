@@ -72,8 +72,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="events.html">Events</a>
+              <a class="nav-link" href="#">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="game-library.html"
@@ -98,93 +99,114 @@
     </nav>
 
     <!-- header section -->
-    <header id="header" class="container section">
+    <!-- <header id="header" class="container section">
       <div class="row justify-content-center">
         <div class="col-12 col-md-8 text-center text-xl-start">
-          <h1 class="display-3">Boardwalk Games</h1>
+          <h1 class="display-3">Join our events</h1>
           <p class="my-4">
-            Thank you for choosing to reserve a spot at Boardwalk Games! Please
-            fill out the form below with your details and preferred event. A
-            member of our team will call you back as soon as possible to confirm
-            your booking and answer any questions you may have.
+            Whether you're delving into dungeons, reliving classic games, or
+            competing in high-stakes tournaments, there's something for every
+            gamer. Reservations are recommended to ensure your spot at the
+            table. Student discounts are available, so bring your student ID and
+            enjoy more gaming for less.
+          </p>
+          <p class="my-4">
+            Outside scheduled events, our shop remains open for regular play.
+            Join us anytime to discover new games and meet fellow enthusiasts.
           </p>
         </div>
       </div>
-    </header>
+    </header> -->
 
     <main>
-      <!-- Booking inquiry form section -->
-      <section id="booking-form" class="container section">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-8">
-            <h2>Booking inquiry</h2>
-            <form action="success.html" method="GET">
-              <div class="row">
-                <div class="col-12 col-lg-6 mb-3">
-                  <label for="name" class="form-label">Name</label>
-                  <input
-                    class="form-control"
-                    id="name"
-                    name="name"
-                    type="text"
-                    required
-                  />
-                </div>
-                <div class="col-12 col-lg-6 mb-3">
-                  <label for="email" class="form-label">Email</label>
-                  <input
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    type="email"
-                    required
-                  />
-                </div>
-                <div class="col-12 col-lg-6 mb-3">
-                  <label for="phone" class="form-label">Phone number</label>
-                  <input
-                    class="form-control"
-                    id="phone"
-                    name="phone"
-                    type="number"
-                    required
-                  />
-                </div>
-                <div class="col-12 col-lg-6 mb-3">
-                  <label for="event-type" class="form-label">Event type</label>
-                  <select
-                    id="event-type"
-                    class="form-select"
-                    name="event-type"
-                    required
-                  >
-                    <option value="" selected>Select</option>
-                    <option value="regular-play">Reserve a table</option>
-                    <option value="dnd">Dungeons & Dragons</option>
-                    <option value="retro-night">Retro Game Night</option>
-                    <option value="tournament">Tournament</option>
-                    <option value="kids-party">Kids party</option>
-                  </select>
-                </div>
-                <div class="col-12 mb-3">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea
-                    class="form-control"
-                    rows="6"
-                    id="message"
-                    name="message"
-                    required
-                  ></textarea>
-                </div>
-              </div>
-
-              <button type="submit" class="btn custom-button-outline">
-                Submit
-              </button>
-            </form>
+      <!-- events section -->
+      <div class="container-fluid section ">
+        <div class="row row-cols-2">
+       
+          <div class="col-12 text-center">
+            <h2 class="display-6">Join Our Events</h2>
+          </div>
+          <!-- Events description -->
+          <div class="col-12 col-md-6 col-xl-6 col-xxl-6">
+            <p class="my-4">
+              Whether you're delving into dungeons, reliving classic games, or
+              competing in high-stakes tournaments, there's something for every
+              gamer. Reservations are recommended to ensure your spot at the
+              table. Student discounts are available, so bring your student ID
+              and enjoy more gaming for less.
+            </p>
+            <p class="my-4">
+              Outside scheduled events, our shop remains open for regular play.
+              Join us anytime to discover new games and meet fellow enthusiasts.
+            </p>
+            <!-- <div class="social-links my-4">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                aria-label="Visit our Instagram page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                aria-label="Visit our Facebook page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a
+                href="https://www.x.com"
+                target="_blank"
+                aria-label="Visit our X feed (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div> -->
+          </div>
+          <!-- </div> -->
+          <!-- Opening times table -->
+          <div class="col-12 col-md-6 col-xl-6 col-xxl-6 table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">Event</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Time</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">Dungeons & Dragons</td>
+                  <td colspan="2">Tuesdays</td>
+                  <td colspan="2">8pm - 11pm</td>
+                  <td colspan="2">€25 for 6 sessions</td>
+                </tr>
+                <tr>
+                  <td scope="row">Retro Game Night</td>
+                  <td colspan="2">Thursdays</td>
+                  <td colspan="2">8pm - 11pm</td>
+                  <td colspan="2">€5 per person*</td>
+                </tr>
+                <tr>
+                  <td scope="row">Retro Game Night</td>
+                  <td colspan="2">Thursdays</td>
+                  <td colspan="2">8pm - 11pm</td>
+                  <td colspan="2">€5 per person*</td>
+                </tr>
+                <tr>
+                  <td scope="row">Tournaments</td>
+                  <td>Last Sunday of the month</td>
+                  <td>12pm - 7pm</td>
+                  <td>€10 per person</td>
+                </tr>
+              </tbody>
+            </table>
+            <div ><p class="discount-text">*Get 20% off with valid student ID</p></div>
           </div>
         </div>
-      </section>
+        <!-- </div> -->
+      </div>
     </main>
 
     <!-- main element to hold all key sections of the game library page,

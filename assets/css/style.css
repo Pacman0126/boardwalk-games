@@ -121,6 +121,14 @@ h2 {
   border: none;
 }
 
+/* Reserve game */
+
+.reservation {
+
+  max-width: 290px;
+  justify-content: center;
+}
+
 /* Footer / contact */
 
 #contact {

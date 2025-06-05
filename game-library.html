@@ -112,7 +112,8 @@
           </p>
 
           <a href="booking.html" class="btn custom-button-outline mb-4"
-            >Book now</a>
+            >Book now</a
+          >
         </div>
         <div class="col-12 col-xl-6">
           <div
@@ -347,6 +348,92 @@
                 <p><em>Ages:</em> 8+</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reserve games section -->
+      <section id="reservation" class="container section">
+        <div class="row row-cols-1 justify-content-center reservation">
+          <div
+            class="col-auto col-sm-auto col-md-auto col-xl-auto col-xxl-auto"
+          >
+            <h2>Reserve a game</h2>
+            <p>
+              Reserve a board game for your next visit to Boardwalk Games. Pick
+              your challenge, and let the adventure begin! Fill out your details
+              and preferred game below, and we'll have it set aside for you when
+              you arrive.
+            </p>
+            <form action="success.html" method="GET">
+              <div class="row">
+                <div class="col-12 col-md-6 col-xl-6 col-xxl-6 mb-3">
+                  <label for="name" class="form-label">Full name</label>
+                  <input
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    type="text"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-xxl-6 mb-3 mb-3">
+                  <label for="phone" class="form-label">Phone number</label>
+                  <input
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    type="number"
+                    required
+                  />
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-6 col-xxl-6 mb-3 mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                  />
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-6 col-xxl-6 mb-3 mb-3">
+                  <label for="game-title" class="form-label">Select game</label>
+                  <select
+                    id="game-title"
+                    class="form-select"
+                    name="game-title"
+                    required
+                  >
+                    <option value="" selected>Select</option>
+                    <option value="galaxy-pioneers">Galaxy Pioneers</option>
+                    <option value="mystic-Woods">Mystic Woods</option>
+                    <option value="captains-gambit">Captain's Gambit</option>
+                    <option value="critter-quest">Critter Quest</option>
+                    <option value="setters-of-catan">Setters of Catan</option>
+                    <option value="monopoly">Monopoly</option>
+                    <option value="exploding-kittens">Exploding Kittens</option>
+                    <option value="cluedo">Cluedo</option>
+                  </select>
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-xxl-6 mb-3 mb-3">
+                  <label for="date" class="form-label">Requested date</label>
+                  <input
+                    class="form-control"
+                    id="date"
+                    name="date"
+                    type="date"
+                    required
+                  />
+                </div>
+              </div>
+
+              <button type="submit" class="btn custom-button-outline">
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </section>

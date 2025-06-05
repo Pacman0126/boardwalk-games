@@ -39,9 +39,6 @@ h2 {
 }
 
 .section {
-  /* margin-top: 2rem;
-  margin-bottom: 2rem; */
-
   padding-top: 4rem;
 }
 
@@ -166,17 +163,6 @@ h2 {
   background-color: transparent;
 }
 
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media queries */
 

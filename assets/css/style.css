@@ -45,8 +45,12 @@ h2 {
 }
 
 .discount-text {
+  width: 290px;
+  /* max-width: 320px; */
   background-color: var(--highlight-color);
   color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Buttons */
